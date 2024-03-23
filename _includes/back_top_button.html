@@ -1,0 +1,24 @@
+<div id="back-top">
+    <a href="#top" title="回到顶部">
+        ↑
+        <!-- <i class="icon-2x icon-arrow-up"></i> -->
+    </a>
+</div>
+<script type="text/javascript">
+    var backTopElement = document.getElementById('back-top');
+    window.addEventListener('scroll', function () {
+        var scrollPosition = window.scrollY || document.documentElement.scrollTop;
+
+        if (scrollPosition > 300) {
+            backTopElement.classList.add('show');  // 添加 show 类名以显示元素
+        } else {
+            backTopElement.classList.remove('show');  // 移除 show 类名以隐藏元素
+        }
+    });
+    backTopElement.addEventListener('click', function () {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+</script>
