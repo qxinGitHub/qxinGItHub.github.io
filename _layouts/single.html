@@ -51,6 +51,8 @@ layout: default
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 
+      <!-- 缺少 版权说明 -->
+
       <footer class="page__meta">
         {% if site.data.ui-text[site.locale].meta_label %}
           <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
@@ -61,8 +63,14 @@ layout: default
         {% include page__date.html %}
       </footer>
 
+      <!-- 结束说明 -->
+      {% include passage_end.html %}
+
+      <!-- 分享 -->
       {% if page.share %}{% include social-share.html %}{% endif %}
 
+
+      <!-- 上一篇和下一篇文章链接 -->
       {% if site.post_pagination %}
         {% include post_pagination.html %}
       {% endif %}
