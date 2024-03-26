@@ -345,9 +345,9 @@ body {
    ========================================================================== */
 
 .page__taxonomy {
-  .sep {
-    display: none;
-  }
+  // .sep {
+  //   display: none;
+  // }
 
   strong {
     margin-right: 10px;
@@ -356,17 +356,18 @@ body {
 
 .page__taxonomy-item {
   display: inline-block;
-  margin-right: 5px;
+  // margin-right: 5px;
   margin-bottom: 8px;
-  padding: 0px 6px;
+  padding: 0px 2px 0 6px;
   text-decoration: none;
-  border: 1px solid mix(#000, $border-color, 25%);
-  border-radius: 6px;
+  // border: 1px solid mix(#000, $border-color, 25%);
+  // border-radius: 6px;
+  color: #00414d;
 
   &:hover {
     text-decoration: none;
     color: $link-color-hover;
-    border-color: #ff8851; 
+    // border-color: #ff8851; 
   }
 }
 

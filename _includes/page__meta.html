@@ -15,11 +15,26 @@
           <time datetime="{{ date | date_to_xmlschema }}">{{ date | date: date_format }}</time>
         {% endif %}
 
+        <!-- {% if document.tag_archive.type and document.tags[0] %}
+          {% include tag-list.html %}
+        {% endif %} -->
+        <!-- 只有条件不成立时, 显示tag -->
+        {% unless page.tags[0] %}
+          <!-- {{document.tags[0]}} -->
+          {% include tag-list-forHome.html %}
+        {% endunless %}
+
+        <!-- 最后更新时间 -->
+        {% if document.last_modified_at %}
+          最后更新:{{document.last_modified_at | date: "%Y-%m-%d"}}
+        {% endif %}
+
       </span>
     {% endif %}
 
     {% if document.read_time and document.show_date %}<span class="page__meta-sep"></span>{% endif %}
 
+    <!-- 显示阅读时间 -->
     {% if document.read_time %}
       {% assign words_per_minute = document.words_per_minute | default: site.words_per_minute | default: 200 %}
       {% assign words = document.content | strip_html | number_of_words %}
@@ -35,5 +50,6 @@
         {% endif %}
       </span>
     {% endif %}
+
   </p>
 {% endif %}
