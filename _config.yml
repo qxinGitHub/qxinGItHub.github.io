@@ -37,6 +37,8 @@ date_format: "%Y-%m-%d"
 include:
   - _pages
 
+baidu_site_verification: "codeva-QxdeRp6WnT"
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
