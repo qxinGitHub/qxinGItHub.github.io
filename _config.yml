@@ -63,7 +63,7 @@ plugins:
 author:
   name   : "qxin"
   avatar : "/assets/images/tom.jpg"
-  bio    : "让技术服务于人"
+  bio    : "这世界是个巨大的草台班子"
   links:
     - label: "主页"
       icon: "fas fa-fw fa-home"
