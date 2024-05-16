@@ -1,0 +1,172 @@
+{
+  "main": {
+    "id": "83bfe8235cdf9d00",
+    "type": "split",
+    "children": [
+      {
+        "id": "40275366ac3d1627",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ee2e676e358a7414",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-05-16-jellyfin在server2019net版本过低的问题.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "04be835bbc0f4af7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2dbf488ce86073a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-05-16-jellyfin在server2019net版本过低的问题.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ab1b25708849f86f",
+    "type": "split",
+    "children": [
+      {
+        "id": "f6fd4ca87d441ae8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ed0fc90c2dbf389d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d23f9b37c4411d2a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5ba1d27311e454c8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9cf2d73b2ac491c8",
+    "type": "split",
+    "children": [
+      {
+        "id": "95cdd6b0aadb106f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1f8d39b41839b06e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_posts/2024-05-16-jellyfin在server2019net版本过低的问题.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "258936c69c54b934",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "_posts/2024-05-16-jellyfin在server2019net版本过低的问题.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "168851c9e2496508",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "8a9d6a1ed0696877",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_posts/2024-05-16-jellyfin在server2019net版本过低的问题.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "ee2e676e358a7414",
+  "lastOpenFiles": [
+    "_posts/2024-05-16-jellyfin在server2019net版本过低的问题.md",
+    "_posts/2024-04-05-ahk-FindText使用中的一些问题.md"
+  ]
+}
