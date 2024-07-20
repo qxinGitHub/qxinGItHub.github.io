@@ -374,7 +374,7 @@ Filerename(){
         reNameGui.Add("Button", "x+10 yp W50 Default", "关闭").OnEvent("click", GuiClose)
         ; reNameGui.Add("Button", "xp+70 yp W50  Default", "保存(&S)").OnEvent("click", fNameReName)
 
-        reNameGui.Add("Link","xm yp+30 center", '该程序是为了存档软件,整理文档使用，<a href="https://www.autohotkey.com">发布地址及说明</a>')
+        reNameGui.Add("Link","xm yp+30 center", '该程序是为了存档软件,整理文档使用，<a href="https://12456789.xyz/blog/%E9%87%8D%E5%91%BD%E5%90%8D%E5%B7%A5%E5%85%B7/">发布地址及说明</a>')
 
         reNameGui.Show()
         Return
@@ -638,7 +638,7 @@ tray.add
 tray.add "这是用来给程序存档使用", (*) => showGithub()
 tray.add "发布地址", (*) => showGithub()
 showGithub(*){
-    Run "www.baidu.com"
+    Run "https://12456789.xyz/blog/%E9%87%8D%E5%91%BD%E5%90%8D%E5%B7%A5%E5%85%B7/"
 }
 toStr(obj,DelimiterChars := ','){
     if isObj(obj){
