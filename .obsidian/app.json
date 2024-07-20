@@ -1,5 +1,8 @@
 {
   "propertiesInDocument": "source",
   "showLineNumber": true,
-  "strictLineBreaks": true
+  "strictLineBreaks": true,
+  "showUnsupportedFiles": true,
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "relative"
 }

@@ -8,7 +8,7 @@ tags:
 ---
 
 # 问题
-在最新的 [jellyfin](https://repo.jellyfin.org/)  10.9.1 中, 打开后会提示需要 [.net 4.8.1](https://dotnet.microsoft.com/zh-cn/download/dotnet-framework/net481) 才能运行, 但如果使用 server2019 做NAS, server2019 可以安装的最高版本是 [.net 4.8.0](https://dotnet.microsoft.com/zh-cn/download/dotnet-framework/net48),  导致可以安装却无法运行。
+在最新的 [jellyfin](https://repo.jellyfin.org/)  10.9.1 中, 打开后会提示需要 [.net 4.8.1](https://dotnet.microsoft.com/zh-cn/download/dotnet-framework/net481) 才能运行, 但如果使用 server2019 做NAS, server2019 可以安装的最高版本是 [.net 4.8.0](https://dotnet.microsoft.com/zh-cn/download/dotnet-framework/net48),  导致jellyfin可以安装却无法运行。
 
 # 操作环境
 jellyfin : 10.9.1  

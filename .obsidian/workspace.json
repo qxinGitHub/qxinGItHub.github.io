@@ -13,29 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-05-16-jellyfin在server2019net版本过低的问题.md",
+                "file": "_posts/2024-07-19-重命名工具.md",
                 "mode": "source",
                 "source": false
               }
-            }
+            },
+            "group": "be9fcaf6e8cd84a7"
           }
         ]
       },
       {
-        "id": "04be835bbc0f4af7",
+        "id": "0bbc1c54320cee05",
         "type": "tabs",
         "children": [
           {
-            "id": "2dbf488ce86073a2",
+            "id": "7372137e8428ab88",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-05-16-jellyfin在server2019net版本过低的问题.md",
+                "file": "_posts/2024-07-19-重命名工具.md",
                 "mode": "preview",
                 "source": false
               }
-            }
+            },
+            "group": "be9fcaf6e8cd84a7"
           }
         ]
       }
@@ -103,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-05-16-jellyfin在server2019net版本过低的问题.md",
+                "file": "_posts/2024-07-19-重命名工具.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-05-16-jellyfin在server2019net版本过低的问题.md",
+                "file": "_posts/2024-07-19-重命名工具.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-05-16-jellyfin在server2019net版本过低的问题.md"
+                "file": "_posts/2024-07-19-重命名工具.md"
               }
             }
           }
@@ -166,7 +168,19 @@
   },
   "active": "ee2e676e358a7414",
   "lastOpenFiles": [
+    "assets/exe/01装机_AutoHotkey_v2.0.9_官方_安装包_d230923.exe",
+    "assets/exe",
+    "assets/新建文件夹",
+    "_posts/2024-04-05-ahk-FindText使用中的一些问题.md",
+    "_posts/2024-07-19-重命名工具.md",
+    "assets/ahk/软件重命名_v1_d240720.ahk",
+    "assets/ahk/软件重命名.ahk",
+    "assets/blog/20240719/20240720130805.bmp",
     "_posts/2024-05-16-jellyfin在server2019net版本过低的问题.md",
-    "_posts/2024-04-05-ahk-FindText使用中的一些问题.md"
+    "assets/blog/20240719/20240719223620.bmp",
+    "assets/blog/20240719.md",
+    "assets/blog/20240719/软件重命名工具演示.jpg",
+    "assets/blog/20240719/软件重命名工具.jpg",
+    "assets/blog/20240719"
   ]
 }
