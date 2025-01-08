@@ -59,6 +59,15 @@
             margin-bottom: 20px;
             color: #aaa;
         }
+        .center-text {
+            text-align: center;
+            position: fixed;
+            bottom: 10px;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            width: fit-content; // 确保内容宽度适应文本 
+        }
     </style>
 </head>
 
@@ -88,7 +97,9 @@
             <div id="preview"></div>
         </div>
     </div>
-
+    <div class="center-text">
+        <p>发布地址: <a href="https://12456789.xyz/blog/%E7%BD%91%E9%A1%B5%E5%9C%A8%E7%BA%BF%E6%8B%BC%E5%9B%BE/">qxin的小站</a></p>
+    </div>
 
     <script>
         document.getElementById('upload').addEventListener('change', handleFiles);
@@ -117,7 +128,7 @@
                 // 你可以在这里使用 firstFileName 进行其他操作
             }
 
-            for (let i = 0; i < files.length && i < 8; i++) {
+            for (let i = 0; i < files.length && i < 16; i++) {
                 const file = files[i];
                 const reader = new FileReader();
                 reader.onload = (function (file) {
