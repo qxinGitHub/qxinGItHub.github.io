@@ -4,5 +4,6 @@
   "strictLineBreaks": true,
   "showUnsupportedFiles": true,
   "alwaysUpdateLinks": true,
-  "newLinkFormat": "relative"
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true
 }

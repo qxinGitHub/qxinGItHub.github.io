@@ -33,7 +33,8 @@
               },
               "icon": "lucide-file",
               "title": "2024-12-05-网页在线拼图"
-            }
+            },
+            "group": "265824e3737ce096"
           }
         ],
         "currentTab": 1
@@ -49,12 +50,13 @@
               "type": "markdown",
               "state": {
                 "file": "_posts/2024-12-05-网页在线拼图.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "2024-12-05-网页在线拼图"
-            }
+            },
+            "group": "265824e3737ce096"
           }
         ]
       }
@@ -197,7 +199,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "25288da7633d4b75",
+  "active": "7372137e8428ab88",
   "lastOpenFiles": [
     "_posts/2024-07-19-重命名工具.md",
     "_posts/2024-12-05-网页在线拼图.md",
