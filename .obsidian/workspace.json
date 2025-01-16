@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-12-05-网页在线拼图.md",
+                "file": "_posts/2025-01-16-Obsidian-Web-Clipper-剪辑知乎专栏.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-12-05-网页在线拼图"
+              "title": "2025-01-16-Obsidian-Web-Clipper-剪辑知乎专栏"
             },
             "group": "265824e3737ce096"
           }
@@ -49,12 +49,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-12-05-网页在线拼图.md",
-                "mode": "preview",
+                "file": "_posts/2025-01-16-Obsidian-Web-Clipper-剪辑知乎专栏.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-12-05-网页在线拼图"
+              "title": "2025-01-16-Obsidian-Web-Clipper-剪辑知乎专栏"
             },
             "group": "265824e3737ce096"
           }
@@ -199,10 +199,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7372137e8428ab88",
+  "active": "25288da7633d4b75",
   "lastOpenFiles": [
     "_posts/2024-07-19-重命名工具.md",
     "_posts/2024-12-05-网页在线拼图.md",
+    "_posts/2025-01-16-Obsidian-Web-Clipper-剪辑知乎专栏.md",
+    "assets/blog/20250116/2025-01-16_16-31-01.png",
+    "assets/blog/20250116",
+    "_posts/2024-04-05-ahk-FindText使用中的一些问题.md",
     "(/assets/html/multiple_drag_and_drop_upload_v3.html.md",
     "(/assets/html",
     "(/assets",
@@ -218,9 +222,7 @@
     "assets/exe/01装机_AutoHotkey_v2.0.9_官方_安装包_d230923.exe",
     "assets/exe",
     "assets/新建文件夹",
-    "_posts/2024-04-05-ahk-FindText使用中的一些问题.md",
     "assets/ahk/软件重命名_v1_d240720.ahk",
-    "assets/ahk/软件重命名.ahk",
     "assets/blog/20240719.md",
     "assets/blog/20240719/软件重命名工具.jpg"
   ]
