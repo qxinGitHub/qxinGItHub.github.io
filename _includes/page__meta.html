@@ -9,11 +9,11 @@
           <!-- <time datetime="{{ date | date_to_xmlschema }}">{{ date | date: date_format }}</time> -->
 
         <!-- 将发布时间更改为最后的修改时间 -->
-        {% if page.last_modified_at %}
-          <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">{{ page.last_modified_at | date: date_format }}</time>
-        {% elsif date %}
+        <!-- {% if page.last_modified_at %} -->
+          <!-- <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">{{ page.last_modified_at | date: date_format }}</time> -->
+        <!-- {% elsif date %} -->
           <time datetime="{{ date | date_to_xmlschema }}">{{ date | date: date_format }}</time>
-        {% endif %}
+        <!-- {% endif %} -->
 
         <!-- {% if document.tag_archive.type and document.tags[0] %}
           {% include tag-list.html %}
