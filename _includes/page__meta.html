@@ -6,14 +6,14 @@
       <span class="page__meta-date">
         <i class="far {% if include.type == 'grid' and document.read_time and document.show_date %}fa-fw {% endif %}fa-calendar-alt" aria-hidden="true"></i>
         {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
-          <!-- <time datetime="{{ date | date_to_xmlschema }}">{{ date | date: date_format }}</time> -->
+          <time datetime="{{ date | date_to_xmlschema }}">{{ date | date: date_format }}</time>
 
         <!-- 将发布时间更改为最后的修改时间 -->
-        <!-- {% if page.last_modified_at %} -->
-          <!-- <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">{{ page.last_modified_at | date: date_format }}</time> -->
-        <!-- {% elsif date %} -->
+        <!-- {% if page.last_modified_at %}
+          <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">{{ page.last_modified_at | date: date_format }}</time>
+        {% elsif date %}
           <time datetime="{{ date | date_to_xmlschema }}">{{ date | date: date_format }}</time>
-        <!-- {% endif %} -->
+        {% endif %} -->
 
         <!-- {% if document.tag_archive.type and document.tags[0] %}
           {% include tag-list.html %}
@@ -26,7 +26,7 @@
 
         <!-- 最后更新时间 -->
         {% if document.last_modified_at %}
-          最后更新:{{document.last_modified_at | date: "%Y-%m-%d"}}
+          最后更新 : {{document.last_modified_at | date: "%Y-%m-%d"}}
         {% endif %}
 
       </span>
